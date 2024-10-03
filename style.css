@@ -1,21 +1,50 @@
+@charset "UTF-8";
 * {
+  cursor: url(ponteiro/Não\ confirmado\ 956643.crdownload), auto;
   padding: 0;
   margin: 0;
 }
 
-#tudo {
-  display: flex;
+body {
+  background-image: url(imagens/mineShadersBG.jpg);
 }
 
-.navbar {
-  display: flex;
+nav {
+  border-radius: 0px 15px 15px 0px;
+  nav-up: 200px;
+  position: absolute;
   height: 100vh;
   width: 5vw;
   background-color: #C6E2D4;
 }
 
-.img {
-  height: 15%;
-  width: 15%;
-  border-radius: 50%;
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 20%;
+  height: auto;
+}
+
+.bloco {
+  width: 40px;
+  height: 40px;
+}
+
+.enderEye {
+  width: 37px;
+  height: 37px;
+}
+
+.all_blocs {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 20px solid transparent;
+  flex-direction: column;
+  gap: 25px;
+}
+.all_blocs :hover {
+  cursor: url(ponteiro/picareta16px.png), auto;
 }/*# sourceMappingURL=style.css.map */
