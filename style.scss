@@ -3,11 +3,32 @@
     padding: 0;
     margin: 0;
 }
-body{
-    background-image: url(imagens/mineShadersBG.jpg);
 
-}
-
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(imagens/mineShaders.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.08);
+    z-index: 1;
+  }
+  
+  main {
+    position: relative;
+    z-index: 2;
+  }
+  
 nav{
     border-radius: 0px 15px 15px 0px;
     nav-up: 200px;
@@ -25,6 +46,19 @@ nav{
     height: auto;     
   
 }
+
+.TiteSub{
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        color: whitesmoke;
+        font-size: 20px;
+        text-align: center;
+    }
+      
+    
 // classs dos icones de blocos
 .bloco{
 
@@ -61,6 +95,6 @@ nav{
 
 
     & :hover{
-        cursor: url(ponteiro/picareta16px.png), auto;
+        cursor: url(ponteiro/picareta.png), auto;
     }
 }
