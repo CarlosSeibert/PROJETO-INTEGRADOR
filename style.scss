@@ -1,19 +1,31 @@
-*{
+* {
     cursor: url(ponteiro/Não\ confirmado\ 956643.crdownload), auto;
     padding: 0;
     margin: 0;
+    
 }
-
-body {
+body{
+overflow: hidden;
+}
+.body1 {
     margin: 0;
     height: 100vh;
     background-image: url(imagens/mineShaders.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
-  }
-  
-  body::before {
+}
+.body2 {
+    margin: 0;
+    height: 100vh;
+    background-image: url(imagens/mineshadersPG2Tru.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.body2::before {
     content: '';
     position: absolute;
     top: 0;
@@ -22,79 +34,145 @@ body {
     bottom: 0;
     background-color: rgba(255, 255, 255, 0.08);
     z-index: 1;
-  }
-  
-  main {
+    width: 100vw;
+    height: 100vh;
+}
+#titulo1{
+    color: #D3D3D3;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding-top: 30%; 
+    padding-left:55%;   
+}
+#titulo2{
+    color: #F5F5F5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 0.3%;
+
+}
+.h2_2{
+    margin-top: 3%;
+}
+.h2_1{
+    text-align: center;
+}
+.h1_1{
+    text-align: center;
+}
+main {
     position: relative;
     z-index: 2;
-  }
-  
-nav{
+}
+
+nav {
+    z-index: 2;
     border-radius: 0px 15px 15px 0px;
     nav-up: 200px;
     position: absolute;
     height: 100vh;
     width: 5vw;
     background-color: #C6E2D4;
-}
-// Logo 
-.logo{  
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 20%;  
-    height: auto;     
-  
-}
 
-.TiteSub{
-
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -40%);
-        color: whitesmoke;
-        font-size: 20px;
-        text-align: center;
-    }
-      
-    
-// classs dos icones de blocos
-.bloco{
-
-    width: 40px;
-    height: 40px;
-}
-.enderEye{
-
-    width: 37px;
-    height: 37px;
-    // & :hover{
-    //     opacity: 80%;
-    // }
-}
-
-// Tentar a pá
-
-// .terra{
-// :hover{
-//         cursor: url(ponteiro/pá.png), auto;
-//     }
-// }
-
-
-// envolve todos os icones
-.all_blocs{
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 20px solid transparent;
-    flex-direction: column;
-    gap: 25px;
-
-
-    & :hover{
+    & :hover {
         cursor: url(ponteiro/picareta.png), auto;
     }
 }
+
+nav .bloco {
+
+    display: flex;
+    padding-top: 35%;
+    padding-left: 20%;
+    animation: Afk 15s infinite;
+    animation: Afk 2s cubic-bezier(0.5, 0, 1, 1) infinite;
+}
+nav .enderEye{
+    height: 55%;
+    width: 55%;
+    display: flex;
+    padding-top: 35%;
+    padding-left: 20%;
+    animation: Afk 15s infinite;
+    animation: Afk 2s cubic-bezier(0.5, 0, 1, 1) infinite;
+}
+
+// Logo 
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    height: auto;
+    transition: transform 0.3s ease;
+
+    & :hover {
+        transform: scale(1.5);
+    }
+
+}
+
+.logo2 {
+    position: relative;
+    top: 38vw;
+    padding-left: 94%;
+    margin-right: auto;
+    max-width: 20%;
+    height: 7%;
+    width: 7%;
+}
+
+
+.TiteSub {
+    position: absolute;
+    top: 0; 
+    left: 5vw; 
+    transform: translateY(20px); 
+    color: rgb(53, 38, 38);
+    font-size: 20px;
+    text-align: center; 
+    z-index: 2; 
+}
+.TiteSub2 {
+    position: absolute;
+    top: 0; 
+    left: 5vw; 
+    transform: translateY(20px); 
+    color: rgb(53, 38, 38);
+    font-size: 20px;
+    text-align: left; 
+    z-index: 2; 
+}
+
+.H22 {
+
+    position: relative;
+}
+
+// classs dos icones de blocos tamanho
+.bloco {
+    width: 40px;
+    height: 40px;
+}
+
+// @keyframes Afk {
+//     0% {
+//       transform: scale(1);
+//     }
+//     20%{
+//         transform: scale(1.2)
+//     }
+//     30% {
+//       transform: scale(1.2);
+//     }
+//     50% {
+//       transform: scale(1.2);
+//     }
+
+//     100% {
+//       transform: scale(1);
+//   }
+// }
