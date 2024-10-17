@@ -23,6 +23,24 @@ overflow: hidden;
     background-position: center;
     position: relative;
 }
+.body3{
+    margin: 0;
+    height: 100vh;
+    background-image: url(imagens/mineshaders3Tru.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+.body4{
+    margin: 0;
+    height: 100vh;
+    background-image: url(imagens/mineshaders4.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
 
 
 .body2::before {
@@ -41,24 +59,51 @@ overflow: hidden;
     color: #D3D3D3;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
     text-align: center;
-    width: auto;
+    width: 50%;
     height: auto;
     padding-top: 30%; 
     padding-left:55%;   
+
 }
 #titulo2{
     color: #F5F5F5;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
     text-align: left;
     margin-top: 2%;
-    margin-left: 0.3%;
 
+
+}
+#titulo3{
+    color: #F5F5F5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
+    text-align: left;
+    margin-top: 2%; 
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+#titulo4{
+    color: #F5F5F5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
+    text-align: left;
+    margin-top: 2%; 
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#titulo5{
+    color: #F5F5F5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
+    text-align: left;
+    margin-top: 2%; 
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .h2_2{
     margin-top: 3%;
 }
 .h2_1{
     text-align: center;
+    width: 100%;
 }
 .h1_1{
     text-align: center;
@@ -66,6 +111,35 @@ overflow: hidden;
 main {
     position: relative;
     z-index: 2;
+}
+.h1_3{
+    color: white;
+
+    margin-top: 2%;
+}
+.h2_3{
+    color: white;
+    margin-top: 3%;
+    text-align: justify;
+}
+.h1_4{
+    color: white;
+
+    margin-top: 2%;
+}
+
+.h2_4{
+    color: white;
+    margin-top: 3%;
+}
+.h1_5{
+    color: white;
+
+    margin-top: 2%;
+}
+.h2_5{
+    color: white;
+    margin-top: 3%;
 }
 
 nav {
@@ -83,7 +157,8 @@ nav {
 }
 
 nav .bloco {
-
+    height: 55%;
+    width: 55%;
     display: flex;
     padding-top: 35%;
     padding-left: 20%;
@@ -117,24 +192,24 @@ nav .enderEye{
 
 .logo2 {
     position: relative;
-    top: 38vw;
     padding-left: 94%;
     margin-right: auto;
     max-width: 20%;
     height: 7%;
     width: 7%;
+    padding-top: 40%;
 }
 
 
 .TiteSub {
     position: absolute;
     top: 0; 
-    left: 5vw; 
+    left: 4vw; 
     transform: translateY(20px); 
     color: rgb(53, 38, 38);
     font-size: 20px;
     text-align: center; 
-    z-index: 2; 
+    z-index: 2;
 }
 .TiteSub2 {
     position: absolute;
@@ -144,7 +219,8 @@ nav .enderEye{
     color: rgb(53, 38, 38);
     font-size: 20px;
     text-align: left; 
-    z-index: 2; 
+    z-index: 2;
+
 }
 
 .H22 {
