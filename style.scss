@@ -2,11 +2,18 @@
     cursor: url(ponteiro/Não\ confirmado\ 956643.crdownload), auto;
     padding: 0;
     margin: 0;
-    
+
+    & :hover {
+        cursor: url(ponteiro/icons8-espada-de-minecraft-32.png), auto;
+    }
+
 }
-body{
-overflow: hidden;
+
+body {
+   
+
 }
+
 .body1 {
     margin: 0;
     height: 100vh;
@@ -15,6 +22,7 @@ overflow: hidden;
     background-position: center;
     position: relative;
 }
+
 .body2 {
     margin: 0;
     height: 100vh;
@@ -23,25 +31,73 @@ overflow: hidden;
     background-position: center;
     position: relative;
 }
-.body3{
+
+.body3 {
     margin: 0;
     height: 100vh;
     background-image: url(imagens/mineshaders3Tru.png);
     background-size: cover;
     background-position: center;
     position: relative;
-    
+
 }
-.body4{
+
+.body4 {
     margin: 0;
     height: 100vh;
     background-image: url(imagens/mineshaders4.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
-    
+
 }
 
+.body5 {
+    margin: 0;
+    height: 100vh;
+    background-image: url(imagens/mineshaderOBZ.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.body6 {
+    margin: 0;
+    height: 100vh;
+    background-image: url(imagens/mineshaders7.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.body7 {
+    margin: 0;
+    height: 100vh;
+    background-image: url(imagens/2mineshaders.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.body8 {
+    margin: 0;
+    height: 100vh;
+    background-image: url(imagens/mineshaders6.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.body9 {
+    margin: 0;
+    height: 100vh;
+    background-image: url(imagens/mineshaders8.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 
 .body2::before {
     content: '';
@@ -55,17 +111,15 @@ overflow: hidden;
     width: 100vw;
     height: 100vh;
 }
-#titulo1{
-    color: #D3D3D3;
+
+#titulo1 {
+    color: #F5F5F5;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
     text-align: center;
-    width: 50%;
-    height: auto;
-    padding-top: 30%; 
-    padding-left:55%;   
 
 }
-#titulo2{
+
+#titulo2 {
     color: #F5F5F5;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
     text-align: left;
@@ -73,106 +127,256 @@ overflow: hidden;
 
 
 }
-#titulo3{
+
+#titulo3 {
     color: #F5F5F5;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
     text-align: left;
-    margin-top: 2%; 
+    margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
 
 }
-#titulo4{
+
+#titulo4 {
     color: #F5F5F5;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
     text-align: left;
-    margin-top: 2%; 
     margin-left: 2%;
     margin-right: 2%;
+    margin-top: -2%;
 }
-#titulo5{
+
+#titulo5 {
     color: #F5F5F5;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
     text-align: left;
-    margin-top: 2%; 
+    margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
 }
-.h2_2{
+
+#titulo6 {
+    color: #F5F5F5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#titulo7 {
+    color: #F5F5F5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#titulo8 {
+    color: #F5F5F5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#titulo9 {
+    color: #F5F5F5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.h2_2 {
     margin-top: 3%;
 }
-.h2_1{
-    text-align: center;
-    width: 100%;
-}
-.h1_1{
-    text-align: center;
-}
-main {
-    position: relative;
-    z-index: 2;
-}
-.h1_3{
-    color: white;
 
+.h2_1 {
+    text-align: center;
+
+}
+
+.h1_1 {
+    text-align: center;
+    transition: color 0.5s infinite ease;
+
+    &:hover {
+        animation: Cor_RGB 4s infinite linear;
+    }
+}
+
+main {
+        position: relative;
+        z-index: 2;
+}
+
+h1 {
+    animation: fadeIn 1s ease;
+}
+
+h2 {
+    animation: fadeIn 1s ease;
+}
+
+.h1_3 {
+    color: white;
     margin-top: 2%;
 }
-.h2_3{
+
+.h2_3 {
     color: white;
     margin-top: 3%;
     text-align: justify;
 }
-.h1_4{
+
+.h1_4 {
+    color: white;
+    margin-top: 2%;
+}
+
+.h2_4 {
+    color: white;
+    margin-top: 3%;
+}
+
+.h1_5 {
+    color: white;
+    margin-top: 2%;
+}
+
+.h2_5 {
+    color: white;
+    margin-top: 3%;
+}
+
+.h1_6 {
     color: white;
 
     margin-top: 2%;
 }
 
-.h2_4{
-    color: white;
-    margin-top: 3%;
-}
-.h1_5{
+.h1_7 {
     color: white;
 
     margin-top: 2%;
 }
-.h2_5{
+
+.h2_7 {
     color: white;
     margin-top: 3%;
 }
 
+.h1_8 {
+    color: white;
+
+    margin-top: 2%;
+}
+
+.h2_8 {
+    color: white;
+    margin-top: 3%;
+}
+
+.h1_9 {
+    color: white;
+
+    margin-top: 2%;
+}
+
+.h2_9 {
+    color: white;
+    margin-top: 3%;
+}
+
+.p1 {
+    display: block;
+    text-align: right;
+}
+p{
+    text-decoration: none;
+}
 nav {
     z-index: 2;
-    border-radius: 0px 15px 15px 0px;
     nav-up: 200px;
     position: absolute;
     height: 100vh;
-    width: 5vw;
+    width: 0vw;
     background-color: #C6E2D4;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    color: transparent;
 
-    & :hover {
+    p {
+        display: none;
+    }
+    
+    &:hover {
         cursor: url(ponteiro/picareta.png), auto;
+        width: 12vw;
+        color: black;
+        p {
+            display: block;
+        }
+    
+    }
+
+    
+    .container-bloco{
+        
+        display: flex;
+        align-items: center;
+        justify-items: flex-start;
+        // margin: 6px 0px 6px 0px;
+        
+
+        
+
+        
+    }
+}
+
+nav {
+    .Teste {
+        display: block;
+
     }
 }
 
 nav .bloco {
-    height: 55%;
-    width: 55%;
-    display: flex;
-    padding-top: 35%;
-    padding-left: 20%;
-    animation: Afk 15s infinite;
-    animation: Afk 2s cubic-bezier(0.5, 0, 1, 1) infinite;
+    height: 40px;
+    width: 40px;
+    display: block;
+    // margin-top: 25px;
+    white-space: nowrap;
+
+    &:hover {
+        margin-left: auto;
+    }
 }
-nav .enderEye{
+
+nav .enderEye {
     height: 55%;
     width: 55%;
     display: flex;
-    padding-top: 35%;
-    padding-left: 20%;
-    animation: Afk 15s infinite;
-    animation: Afk 2s cubic-bezier(0.5, 0, 1, 1) infinite;
+    margin-top: 35%;
+    margin-left: 20%;
+}
+
+nav .bloco,
+nav .enderEye {
+    transition: box-shadow 0.3s ease;
+    transition: 0.3s ease;
+
+    &:hover {
+        transform: scale(1.2, 1.2);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
 }
 
 // Logo 
@@ -182,12 +386,17 @@ nav .enderEye{
     margin-right: auto;
     max-width: 20%;
     height: auto;
-    transition: transform 0.3s ease;
 
-    & :hover {
-        transform: scale(1.5);
+    &:hover {
+        animation: Pular 2s ease;
     }
 
+}
+
+.logo {
+    transition: 0.3s ease;
+
+    &:hover {}
 }
 
 .logo2 {
@@ -203,24 +412,32 @@ nav .enderEye{
 
 .TiteSub {
     position: absolute;
-    top: 0; 
-    left: 4vw; 
-    transform: translateY(20px); 
+    display: grid;
+    place-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     color: rgb(53, 38, 38);
     font-size: 20px;
-    text-align: center; 
-    z-index: 2;
-}
-.TiteSub2 {
-    position: absolute;
-    top: 0; 
-    left: 5vw; 
-    transform: translateY(20px); 
-    color: rgb(53, 38, 38);
-    font-size: 20px;
-    text-align: left; 
+    text-align: center;
     z-index: 2;
 
+}
+
+
+.TiteSub2 {
+    position: absolute;
+    top: 0;
+    left: 5vw;
+    transform: translateY(20px);
+    color: rgb(53, 38, 38);
+    font-size: 20px;
+    text-align: left;
+    z-index: 2;
+    border: 1px solid green($color: #00ff22);
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 .H22 {
@@ -234,21 +451,119 @@ nav .enderEye{
     height: 40px;
 }
 
-// @keyframes Afk {
-//     0% {
-//       transform: scale(1);
-//     }
-//     20%{
-//         transform: scale(1.2)
-//     }
-//     30% {
-//       transform: scale(1.2);
-//     }
-//     50% {
-//       transform: scale(1.2);
-//     }
 
-//     100% {
-//       transform: scale(1);
-//   }
-// }
+@keyframes Cor_RGB {
+    25% {
+        color: rgb(255, 0, 0);
+    }
+
+    50% {
+        color: rgb(0, 0, 255);
+    }
+
+    75% {
+        color: rgb(0, 255, 13);
+    }
+
+    100% {
+        color: #F5F5F5;
+    }
+}
+
+@keyframes Pular {
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+
+    80% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+nav{
+    position: absolute;
+    height: 100vh;
+    width: 5vw;
+    background-color: #C6E2D4;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 5px; 
+    
+
+    &:hover {
+        width: 12vw;
+        cursor: url(ponteiro/picareta.png), auto;
+    }
+
+    .container-bloco {
+        display: flex;
+        align-items: center;
+        gap: 10px; 
+        margin-bottom: 10px; 
+        padding: 0.5vh; 
+        width: 100%;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.05);
+
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+
+        p {
+            display: none; 
+            font-size: 1rem;
+            font-weight: bold;
+            color: black;
+        }
+    }
+
+    &:hover .container-bloco p {
+        display: inline-block; 
+        white-space: nowrap; 
+    }
+}
