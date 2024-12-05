@@ -89,6 +89,19 @@
   position: relative;
 }
 
+.body10 {
+  margin: 0;
+  height: 100vh;
+  background-image: url(imagens/3shadersmne.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.body11 {
+  background-image: url(imagens/novaskin-wallpaper-afterahardworkingsession.jpg);
+}
+
 .body2::before {
   content: "";
   position: absolute;
@@ -170,6 +183,24 @@
 }
 
 #titulo9 {
+  color: #F5F5F5;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#titulo10 {
+  color: #F5F5F5;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  text-align: left;
+  margin-top: 30%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#titulo11 {
   color: #F5F5F5;
   text-shadow: 1px 1px 3px rgb(0, 0, 0);
   text-align: left;
@@ -273,6 +304,16 @@ h2 {
   margin-top: 3%;
 }
 
+.h1_11 {
+  color: white;
+  margin-top: 2%;
+}
+
+.h2_11 {
+  color: white;
+  margin-top: 2%;
+}
+
 .p1 {
   display: block;
   text-align: right;
@@ -285,6 +326,7 @@ p {
 nav {
   z-index: 2;
   nav-up: 200px;
+  position: fixed;
   position: absolute;
   height: 100vh;
   width: 0vw;
@@ -299,7 +341,7 @@ nav p {
 }
 nav:hover {
   cursor: url(ponteiro/picareta.png), auto;
-  width: 12vw;
+  width: 13vw;
   color: black;
 }
 nav:hover p {
@@ -496,4 +538,37 @@ nav .container-bloco p {
 nav:hover .container-bloco p {
   display: inline-block;
   white-space: nowrap;
+}
+
+.foto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30%;
+  transition: ease 2s;
+}
+.foto :hover {
+  content: url(imagens/Design_sem_nome-removebg-preview.png);
+}
+
+.foto img {
+  width: 200px;
+  height: auto;
+}
+
+.foto2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 30%;
+  margin-top: -30%;
+  transition: ease 2s;
+}
+.foto2 :hover {
+  content: url(imagens/WhatsApp\ Image\ 2024-12-04\ at\ 19.52.15.jpeg);
+}
+
+.foto2 img {
+  width: 200px;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */

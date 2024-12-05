@@ -9,10 +9,7 @@
 
 }
 
-body {
-   
-
-}
+body {}
 
 .body1 {
     margin: 0;
@@ -97,6 +94,19 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.body10 {
+    margin: 0;
+    height: 100vh;
+    background-image: url(imagens/3shadersmne.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.body11{
+    background-image: url(imagens/novaskin-wallpaper-afterahardworkingsession.jpg);
 }
 
 .body2::before {
@@ -192,6 +202,23 @@ body {
     margin-right: 2%;
 }
 
+#titulo10 {
+    color: #F5F5F5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
+    text-align: left;
+    margin-top: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#titulo11 {
+    color: #F5F5F5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 .h2_2 {
     margin-top: 3%;
 }
@@ -211,8 +238,8 @@ body {
 }
 
 main {
-        position: relative;
-        z-index: 2;
+    position: relative;
+    z-index: 2;
 }
 
 h1 {
@@ -292,17 +319,30 @@ h2 {
     color: white;
     margin-top: 3%;
 }
+.h1_11 {
+    color: white;
+
+    margin-top: 2%;
+}
+.h2_11 {
+    color: white;
+
+    margin-top: 2%;
+}
 
 .p1 {
     display: block;
     text-align: right;
 }
-p{
+
+p {
     text-decoration: none;
 }
+
 nav {
     z-index: 2;
     nav-up: 200px;
+    position: fixed;
     position: absolute;
     height: 100vh;
     width: 0vw;
@@ -315,29 +355,31 @@ nav {
     p {
         display: none;
     }
-    
+
     &:hover {
         cursor: url(ponteiro/picareta.png), auto;
-        width: 12vw;
+        width: 13vw;
         color: black;
+
         p {
             display: block;
         }
-    
+
     }
 
-    
-    .container-bloco{
-        
+
+    .container-bloco {
+
+
         display: flex;
         align-items: center;
         justify-items: flex-start;
         // margin: 6px 0px 6px 0px;
-        
 
-        
 
-        
+
+
+
     }
 }
 
@@ -513,7 +555,8 @@ nav .enderEye {
         transform: translateX(0);
     }
 }
-nav{
+
+nav {
     position: absolute;
     height: 100vh;
     width: 5vw;
@@ -521,9 +564,9 @@ nav{
     transition: 0.3s ease;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
-    padding: 5px; 
-    
+    align-items: flex-start;
+    padding: 5px;
+
 
     &:hover {
         width: 12vw;
@@ -533,9 +576,9 @@ nav{
     .container-bloco {
         display: flex;
         align-items: center;
-        gap: 10px; 
-        margin-bottom: 10px; 
-        padding: 0.5vh; 
+        gap: 10px;
+        margin-bottom: 10px;
+        padding: 0.5vh;
         width: 100%;
         transition: background-color 0.3s ease, transform 0.3s ease;
 
@@ -555,7 +598,7 @@ nav{
         }
 
         p {
-            display: none; 
+            display: none;
             font-size: 1rem;
             font-weight: bold;
             color: black;
@@ -563,7 +606,41 @@ nav{
     }
 
     &:hover .container-bloco p {
-        display: inline-block; 
-        white-space: nowrap; 
+        display: inline-block;
+        white-space: nowrap;
     }
+}
+
+.foto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 30%;
+transition: ease 2s;
+    & :hover {
+
+        content: url(imagens/Design_sem_nome-removebg-preview.png);
+    }
+}
+
+.foto img {
+   width: 200px;
+    height: auto;
+}
+.foto2 {    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 30%;
+    margin-top: -30%;
+    transition: ease 2s;
+
+    & :hover {
+
+        content: url(imagens/WhatsApp\ Image\ 2024-12-04\ at\ 19.52.15.jpeg);
+    }
+}
+
+.foto2 img {
+   width: 200px;
+    height: auto;
 }
